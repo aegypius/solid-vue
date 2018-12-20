@@ -36,7 +36,7 @@ const store = new Vuex.Store({
     }
   },
   actions: {
-    login({}, popupUri = 'popup.html') {
+    login(context, popupUri = 'popup.html') {
       solid.auth.popupLogin({ popupUri })
     },
 
