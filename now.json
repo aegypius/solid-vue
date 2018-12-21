@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "regions": ["bru"],
   "builds": [
     { "src": "package.json", "use": "@now/static-build" }
   ]
